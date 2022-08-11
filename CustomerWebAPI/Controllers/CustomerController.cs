@@ -87,6 +87,7 @@ namespace CustomerWebAPI.Controllers
                 var customer = await _customerDbContext.Customers.FindAsync(customerId);
                 if (customer != null)
                 {
+                    string s = "123";
                     _customerDbContext.Customers.Remove(customer);
                     await _customerDbContext.SaveChangesAsync();
                     return Ok();
