@@ -12,7 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CustomerWebAPI
+namespace CustomerServices
 {
     public class Startup
     {
@@ -28,18 +28,17 @@ namespace CustomerWebAPI
         {
             services.AddControllers();
             ///* Database Context Dependency Injection work with .NET 6 */
-            //var dbHost = "localhost";
-            //var dbName = "dms_customer";
+            //var dbHost = Environment.GetEnvironmentVariable("DB_HOST");
+            //var dbName = Environment.GetEnvironmentVariable("DB_NAME");
             //var connectionString = $"Data Source={dbHost};Initial Catalog={dbName};User ID=sa;Password=123456a@";
             //services.AddDbContext<CustomerDbContext>(opt => opt.UseSqlServer(connectionString));
             ///*=======================================*/
 
             //Khai báo các service, dependencies 
-            services.AddDbContext<CustomerDbContext>(options => {
+            services.AddDbContext<CustomerDbContext>(options =>
+            {
                 options.UseSqlServer(Configuration.GetConnectionString("MyDB"));
             });
-
-            var sr = Configuration.GetConnectionString("MyDB");
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "CustomerWebAPI", Version = "v1" });

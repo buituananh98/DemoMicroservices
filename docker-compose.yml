@@ -1,0 +1,27 @@
+version: '3.4'
+
+networks:
+  backend: 
+
+services:
+  customerdb: 
+    container_name: customer-db
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+    - ACCEPT-EULA=Y
+    networks:
+    - backend
+    ports:
+    - 8001:1433
+  customerwebapi:
+    image: ${DOCKER_REGISTRY-}customerwebapi
+    build:
+      context: .
+      dockerfile: CustomerWebAPI/Dockerfile
+    networks:
+     - backend
+    environment:
+     - DB_HOST=customerdb
+     - DB_NAME=customer
+    ports:
+     - 8002:80 

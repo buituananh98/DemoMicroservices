@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CustomerWebAPI.Models
+namespace CustomerServices.Models
 {
     [Table("TblCustomer", Schema = "dbo")]
     public class Customer

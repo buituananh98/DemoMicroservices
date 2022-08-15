@@ -1,4 +1,4 @@
-﻿using CustomerWebAPI.Models;
+﻿using CustomerServices.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CustomerWebAPI
+namespace CustomerServices
 {
     public class CustomerDbContext : DbContext
     {

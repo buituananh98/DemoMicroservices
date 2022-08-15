@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YInjulQVTsUDmClQfuEb8jJKrvfVzuuUsorB+KNUZVSN4UObZlY1lgz7KnFXXS2ghBqCwnEjkiQQvf5z+seYEA==",
+  "dgSpecHash": "wXv4vRfAkGua/1R6OBhU27OVBfGBoSs7koT7MwU33lf9vbj+RJP7TCKRPq+mBBeW/Bur5u1yBJZYNev8/hkLJw==",
   "success": true,
-  "projectFilePath": "D:\\Work\\DemoMicroServicesSolution\\CustomerWebAPI\\CustomerWebAPI.csproj",
+  "projectFilePath": "D:\\Work\\DemoMicroServicesSolution\\CustomerWebAPI\\CustomerServices.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\btanh1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\btanh1\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
@@ -34,6 +34,7 @@
     "C:\\Users\\btanh1\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\btanh1\\.nuget\\packages\\microsoft.netcore.targets\\1.1.3\\microsoft.netcore.targets.1.1.3.nupkg.sha512",
     "C:\\Users\\btanh1\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\btanh1\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.16.1\\microsoft.visualstudio.azure.containers.tools.targets.1.16.1.nupkg.sha512",
     "C:\\Users\\btanh1\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\btanh1\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",

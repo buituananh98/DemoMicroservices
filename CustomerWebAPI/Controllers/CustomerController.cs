@@ -1,4 +1,4 @@
-﻿using CustomerWebAPI.Models;
+﻿using CustomerServices.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CustomerWebAPI.Controllers
+namespace CustomerServices.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -27,10 +27,11 @@ namespace CustomerWebAPI.Controllers
         }
 
         //Get by id with hàm xử lý bất đồng bộ
-        [HttpGet("{customerId:int}")]
-        public async Task<ActionResult<Customer>> GetById(int customerID)
+        [HttpGet("{customerId:int}/{CustomerName:string}")]
+        public async Task<ActionResult<Customer>> GetById(int customerID, string name)
         {
             var customer = await _customerDbContext.Customers.FindAsync(customerID);
+            var rs = name;
             return customer;
         }
 
@@ -87,7 +88,6 @@ namespace CustomerWebAPI.Controllers
                 var customer = await _customerDbContext.Customers.FindAsync(customerId);
                 if (customer != null)
                 {
-                    string s = "123";
                     _customerDbContext.Customers.Remove(customer);
                     await _customerDbContext.SaveChangesAsync();
                     return Ok();

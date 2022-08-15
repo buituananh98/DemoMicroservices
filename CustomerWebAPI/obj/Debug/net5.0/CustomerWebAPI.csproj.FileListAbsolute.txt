@@ -58,4 +58,3 @@ D:\Work\DemoMicroServicesSolution\CustomerWebAPI\obj\Debug\net5.0\CustomerWebAPI
 D:\Work\DemoMicroServicesSolution\CustomerWebAPI\obj\Debug\net5.0\ref\CustomerWebAPI.dll
 D:\Work\DemoMicroServicesSolution\CustomerWebAPI\obj\Debug\net5.0\CustomerWebAPI.pdb
 D:\Work\DemoMicroServicesSolution\CustomerWebAPI\obj\Debug\net5.0\CustomerWebAPI.genruntimeconfig.cache
-D:\Work\DemoMicroServicesSolution\CustomerWebAPI\obj\Debug\net5.0\CustomerWebAPI.csproj.AssemblyReference.cache
