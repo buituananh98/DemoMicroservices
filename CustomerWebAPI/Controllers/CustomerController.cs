@@ -88,7 +88,7 @@ namespace CustomerServices.Controllers
                 var customer = await _customerDbContext.Customers.FindAsync(customerId);
                 if (customer != null)
                 {
-                    //design partten
+                    //design partten 
                     _customerDbContext.Customers.Remove(customer);
                     await _customerDbContext.SaveChangesAsync();
                     return Ok();
