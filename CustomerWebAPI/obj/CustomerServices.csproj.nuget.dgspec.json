@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\DemoMicroServicesSolution\\CustomerWebAPI\\CustomerServices.csproj": {}
+    "D:\\GitDemo\\CustomerWebAPI\\CustomerServices.csproj": {}
   },
   "projects": {
-    "D:\\Work\\DemoMicroServicesSolution\\CustomerWebAPI\\CustomerServices.csproj": {
+    "D:\\GitDemo\\CustomerWebAPI\\CustomerServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\DemoMicroServicesSolution\\CustomerWebAPI\\CustomerServices.csproj",
+        "projectUniqueName": "D:\\GitDemo\\CustomerWebAPI\\CustomerServices.csproj",
         "projectName": "CustomerServices",
-        "projectPath": "D:\\Work\\DemoMicroServicesSolution\\CustomerWebAPI\\CustomerServices.csproj",
+        "projectPath": "D:\\GitDemo\\CustomerWebAPI\\CustomerServices.csproj",
         "packagesPath": "C:\\Users\\btanh1\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\DemoMicroServicesSolution\\CustomerWebAPI\\obj\\",
+        "outputPath": "D:\\GitDemo\\CustomerWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\btanh1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Work\\DemoMicroServicesSolution\\OrderServices\\OrderServices.csproj": {
-                "projectPath": "D:\\Work\\DemoMicroServicesSolution\\OrderServices\\OrderServices.csproj"
+              "D:\\GitDemo\\OrderServices\\OrderServices.csproj": {
+                "projectPath": "D:\\GitDemo\\OrderServices\\OrderServices.csproj"
               },
-              "D:\\Work\\DemoMicroServicesSolution\\ProductServices\\ProductServices.csproj": {
-                "projectPath": "D:\\Work\\DemoMicroServicesSolution\\ProductServices\\ProductServices.csproj"
+              "D:\\GitDemo\\ProductServices\\ProductServices.csproj": {
+                "projectPath": "D:\\GitDemo\\ProductServices\\ProductServices.csproj"
               }
             }
           }
@@ -81,10 +82,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -93,24 +113,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Work\\DemoMicroServicesSolution\\OrderServices\\OrderServices.csproj": {
+    "D:\\GitDemo\\OrderServices\\OrderServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\DemoMicroServicesSolution\\OrderServices\\OrderServices.csproj",
+        "projectUniqueName": "D:\\GitDemo\\OrderServices\\OrderServices.csproj",
         "projectName": "OrderServices",
-        "projectPath": "D:\\Work\\DemoMicroServicesSolution\\OrderServices\\OrderServices.csproj",
+        "projectPath": "D:\\GitDemo\\OrderServices\\OrderServices.csproj",
         "packagesPath": "C:\\Users\\btanh1\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\DemoMicroServicesSolution\\OrderServices\\obj\\",
+        "outputPath": "D:\\GitDemo\\OrderServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\btanh1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -163,10 +184,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -175,24 +215,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Work\\DemoMicroServicesSolution\\ProductServices\\ProductServices.csproj": {
+    "D:\\GitDemo\\ProductServices\\ProductServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\DemoMicroServicesSolution\\ProductServices\\ProductServices.csproj",
+        "projectUniqueName": "D:\\GitDemo\\ProductServices\\ProductServices.csproj",
         "projectName": "ProductServices",
-        "projectPath": "D:\\Work\\DemoMicroServicesSolution\\ProductServices\\ProductServices.csproj",
+        "projectPath": "D:\\GitDemo\\ProductServices\\ProductServices.csproj",
         "packagesPath": "C:\\Users\\btanh1\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\DemoMicroServicesSolution\\ProductServices\\obj\\",
+        "outputPath": "D:\\GitDemo\\ProductServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\btanh1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -245,10 +286,29 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.17, 5.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -257,7 +317,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
